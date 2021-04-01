@@ -4,3 +4,8 @@ jobs:
   cats:
     docker:
       image: - cimg/base
+    steps:
+      - checkout
+      - run:
+          command: |
+            tail -c 11 ./imges/cat.jpg
