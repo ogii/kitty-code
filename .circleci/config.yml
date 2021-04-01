@@ -9,7 +9,7 @@ jobs:
       - run:
           name: "Purrr"
           command: |
-            echo $cat
+            echo ${cat}
 
 workflows:
   totallyacat:
