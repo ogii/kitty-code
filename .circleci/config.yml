@@ -8,4 +8,4 @@ jobs:
       - checkout
       - run:
           command: |
-            tail -c 11 ./imges/cat.jpg
+            tail -c 11 ./images/cat.jpg
