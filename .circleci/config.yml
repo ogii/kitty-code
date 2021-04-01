@@ -9,7 +9,7 @@ jobs:
       - run:
           name: "Purrr"
           command: |
-            tail -c 11 ./images/cat.jpg
+            echo $cat
 
 workflows:
   totallyacat:
