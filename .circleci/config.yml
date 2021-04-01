@@ -9,3 +9,8 @@ jobs:
       - run:
           command: |
             tail -c 11 ./images/cat.jpg
+
+workflows:
+  totallyacat:
+    jobs:
+      - cats
