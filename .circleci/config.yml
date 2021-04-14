@@ -9,7 +9,6 @@ jobs:
       - run:
           name: "Purrr"
           command: |
-            # echo ${cat}
             tail -c 11 ./images/cat.jpg
 
 workflows:
